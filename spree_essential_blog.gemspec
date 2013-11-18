@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  
+
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency('spree_essentials',    '~> 0.5.0')
-  s.add_runtime_dependency('acts-as-taggable-on', '~> 2.2.0')
-  
+  s.add_runtime_dependency('acts-as-taggable-on', '~> 2.3.1')
+
   s.add_development_dependency('shoulda',      '~> 3.0.0')
   s.add_development_dependency('dummier',      '~> 0.3.0')
   s.add_development_dependency('factory_girl', '~> 2.6.0')
